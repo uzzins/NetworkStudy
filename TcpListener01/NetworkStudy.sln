@@ -13,6 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClient01", "..\TcpClient
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClientGetStream", "..\TcpClientGetStream\TcpClientGetStream.csproj", "{84D27B82-1B3B-4BCC-95D5-3ABAD44BF05A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpNetworkStreamServer_20241203", "..\TcpNetworkStreamServer\TcpNetworkStreamServer_20241203.csproj", "{8986BFF8-46F6-4BB0-BECB-F51CB25C52F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpNetworkStreamClient_20241203", "..\TcpNetworkStreamClient\TcpNetworkStreamClient_20241203.csproj", "{E1996BD4-CFA8-49B2-BB04-8E8CE04B53D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriter01_20241203", "..\StreamWriter01_20241203\StreamWriter01_20241203.csproj", "{07C588ED-D286-4A98-A63A-067D62C8E0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StremRead_20241203", "..\StremRead_20241203\StremRead_20241203.csproj", "{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +47,22 @@ Global
 		{84D27B82-1B3B-4BCC-95D5-3ABAD44BF05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84D27B82-1B3B-4BCC-95D5-3ABAD44BF05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84D27B82-1B3B-4BCC-95D5-3ABAD44BF05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8986BFF8-46F6-4BB0-BECB-F51CB25C52F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8986BFF8-46F6-4BB0-BECB-F51CB25C52F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8986BFF8-46F6-4BB0-BECB-F51CB25C52F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8986BFF8-46F6-4BB0-BECB-F51CB25C52F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1996BD4-CFA8-49B2-BB04-8E8CE04B53D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1996BD4-CFA8-49B2-BB04-8E8CE04B53D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1996BD4-CFA8-49B2-BB04-8E8CE04B53D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1996BD4-CFA8-49B2-BB04-8E8CE04B53D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C588ED-D286-4A98-A63A-067D62C8E0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C588ED-D286-4A98-A63A-067D62C8E0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C588ED-D286-4A98-A63A-067D62C8E0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C588ED-D286-4A98-A63A-067D62C8E0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
