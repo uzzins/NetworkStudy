@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0448ABDD-A854-4020-8C20-8F46DCEBFDCA}</ProjectGuid>
+    <ProjectGuid>{11B515E6-EFFF-412A-8278-4D6C5031A2BF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>AcceptTcpClient01</RootNamespace>
     <AssemblyName>AcceptTcpClient01</AssemblyName>
