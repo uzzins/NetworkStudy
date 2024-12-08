@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpListener01", "TcpListener01.csproj", "{934F35E2-E86A-4586-9F41-C5551B9365B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241203_TcpListener01", "20241203_TcpListener01.csproj", "{934F35E2-E86A-4586-9F41-C5551B9365B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptTcpClient01", "..\AcceptTcpClient01\AcceptTcpClient01.csproj", "{11B515E6-EFFF-412A-8278-4D6C5031A2BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241202_AcceptTcpClient01", "..\AcceptTcpClient01\20241202_AcceptTcpClient01.csproj", "{11B515E6-EFFF-412A-8278-4D6C5031A2BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkStreamServer", "..\NetworkStreamServer\NetworkStreamServer.csproj", "{64E39FCD-B729-4A1C-B55E-577526E96B2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241202_NetworkStreamServer", "..\NetworkStreamServer\20241202_NetworkStreamServer.csproj", "{64E39FCD-B729-4A1C-B55E-577526E96B2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClient01", "..\TcpClient01\TcpClient01.csproj", "{20F3A69A-9B1F-4824-81AF-C77912B904E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241202_TcpClient01", "..\TcpClient01\20241202_TcpClient01.csproj", "{20F3A69A-9B1F-4824-81AF-C77912B904E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClientGetStream", "..\TcpClientGetStream\TcpClientGetStream.csproj", "{84D27B82-1B3B-4BCC-95D5-3ABAD44BF05A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241202_TcpClientGetStream", "..\TcpClientGetStream\20241202_TcpClientGetStream.csproj", "{84D27B82-1B3B-4BCC-95D5-3ABAD44BF05A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpNetworkStreamServer_20241203", "..\TcpNetworkStreamServer\TcpNetworkStreamServer_20241203.csproj", "{8986BFF8-46F6-4BB0-BECB-F51CB25C52F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241203_TcpNetworkStreamServer", "..\TcpNetworkStreamServer\20241203_TcpNetworkStreamServer.csproj", "{8986BFF8-46F6-4BB0-BECB-F51CB25C52F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpNetworkStreamClient_20241203", "..\TcpNetworkStreamClient\TcpNetworkStreamClient_20241203.csproj", "{E1996BD4-CFA8-49B2-BB04-8E8CE04B53D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241203_TcpNetworkStreamClient", "..\TcpNetworkStreamClient\20241203_TcpNetworkStreamClient.csproj", "{E1996BD4-CFA8-49B2-BB04-8E8CE04B53D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriter01_20241203", "..\StreamWriter01_20241203\StreamWriter01_20241203.csproj", "{07C588ED-D286-4A98-A63A-067D62C8E0E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241203_StreamWriter01", "..\StreamWriter01_20241203\20241203_StreamWriter01.csproj", "{07C588ED-D286-4A98-A63A-067D62C8E0E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StremRead_20241203", "..\StremRead_20241203\StremRead_20241203.csproj", "{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241203_StremRead", "..\StremRead_20241203\20241203_StremRead.csproj", "{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241209_BInaryRead01", "..\BInaryRead0120241209\20241209_BInaryRead01.csproj", "{C8059F8F-2196-480A-A8CD-EE96BE525D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20241209_BinaryWriter01", "..\BinaryWriter01_20241209\20241209_BinaryWriter01.csproj", "{2A1D25D6-D10E-42A0-9712-89218DA110C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763FD455-4C6C-41EC-9DCB-5C7B17CAEAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8059F8F-2196-480A-A8CD-EE96BE525D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8059F8F-2196-480A-A8CD-EE96BE525D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8059F8F-2196-480A-A8CD-EE96BE525D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8059F8F-2196-480A-A8CD-EE96BE525D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1D25D6-D10E-42A0-9712-89218DA110C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1D25D6-D10E-42A0-9712-89218DA110C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1D25D6-D10E-42A0-9712-89218DA110C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1D25D6-D10E-42A0-9712-89218DA110C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
